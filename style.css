@@ -30,7 +30,68 @@
 }
 
 
+/* SPACE OUT MORE AND MAKE IT TO WHERE IT'S MAGENTA WHEN YOU HOVER OVER IT*/
+.letter-nav a{
+    text-decoration: none;
+    color: lightgray;
+    font-family:'DM Sans', sans-serif;
+    padding-top: 20px;
+    letter-spacing: 15px;
+}
+
+.letter-nav a:hover {
+    background-color: #ca328d;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+
 /*Body*/
 body {
     margin: 0;
+}
+
+.alphabet-bar {
+    display: flex;
+    align-items: center;
+    background-color: #574137;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.accent-block {
+    width: 16px;
+    height: 100%;
+    background-color: #ca328d;
+}
+
+.alphabet-bar h2 {
+    color: white;
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+main {
+    background-color: #fbf6f3;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #574137;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-family:'DM Sans', sans-serif;
+
 }

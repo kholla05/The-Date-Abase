@@ -35,16 +35,30 @@
     text-decoration: none;
     color: lightgray;
     font-family:'DM Sans', sans-serif;
-    padding-top: 20px;
-    letter-spacing: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    transition: all 0.2s;
+    line-height: 1;
 }
 
 .letter-nav a:hover {
     background-color: #ca328d;
-    align-items: center;
-    border-radius: 10px;
+    border-radius: 12px;
     color: white;
 }
+
+/* COME BACK TO DECIDE IF YOU WANT TO KEEP
+.hero hr {
+    width: 750px;
+}
+*/
+
+
+
 
 
 /*Body*/

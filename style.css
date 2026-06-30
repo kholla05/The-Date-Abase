@@ -1,0 +1,36 @@
+/* Hero Section */
+.hero{
+    background-color: #574137;
+    width: 100%;
+    padding: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+    
+
+.hero h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.hero h1 em {
+    color: #fdc4e8;
+}
+
+.hero p {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Body*/
+body {
+    margin: 0;
+}

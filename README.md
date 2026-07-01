@@ -6,7 +6,7 @@
 
 ### Live Demo
 You can view the live, hosted website directly in your browser:
-[View Live Site](kholla05.github.io/The-Date-Abase/)
+[View Live Site](https://kholla05.github.io/The-Date-Abase/)
 
 ### Tech Stack
 - **HTML5:** Semantic structure for the layout and content.

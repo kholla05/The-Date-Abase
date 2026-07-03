@@ -96,6 +96,99 @@ section {
     padding: 40px 20px;
 }
 
+
+/*Cards or date ideas section*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+.date-card{
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: calc(33.333% - 14px);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(87, 65, 55, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.date-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(87, 65, 55, 0.15);
+}
+
+.date-card h3{
+    margin: 12px 0 8px 0;
+    color:#574137;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.date-card p{
+    margin: 0;
+    color: #6b564c;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.badge-row {
+    display: flex;
+    gap: 8px;
+    
+}
+
+
+/*Badges Section (ADD THESE TO THE SPAN IN HTML CODE)*/
+.badge {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+
+.badge.solo {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+
+
+.badge.friends {
+    background-color:#e8f5e9;
+    color:#1b5e20;
+
+}
+
+.badge.romantic {
+    background-color: #fce4ec;
+    color: #c2185b;
+
+}
+
+@media (max-width: 768px) {
+    .date-card {
+        width: 100%;
+    }
+}
+
+
+/*Alphabet Section (COME BACK AND STYLE THIS)*/
+#A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+
+}
+
 /*Footer*/
 
 footer{

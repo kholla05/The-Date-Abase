@@ -145,6 +145,14 @@ section {
     
 }
 
+.card-image{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 12px;
+
+}
+
 
 /*Badges Section (ADD THESE TO THE SPAN IN HTML CODE)*/
 .badge {

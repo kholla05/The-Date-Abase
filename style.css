@@ -210,3 +210,8 @@ footer{
     font-family:'DM Sans', sans-serif;
 
 }
+
+.website-credit{
+    text-decoration: none;
+    color: lightgray;
+}
